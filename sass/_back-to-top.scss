@@ -1,0 +1,27 @@
+$text      : rgb(44, 44, 44);
+$text-2    : rgba(231, 223, 223, 0.966);
+$hover     : rgba(243, 44, 44, 0.911);
+$bg-1      : linear-gradient(to right, #2e2751 60%, #179e66);
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 91px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-image: $bg-1 ;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 17px;
+    box-shadow: -1px 1px 12px 0px #8383836e;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

@@ -1,0 +1,39 @@
+$text : rgb(44, 44, 44);
+$text-2    : rgba(231, 223, 223, 0.966);
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: estedad;
+    margin: 0;
+    padding: 0;
+    color: $text;
+    overflow-x: hidden;
+    ul{
+        list-style: none;
+        li{
+            list-style: none;
+        }
+    }
+a{
+    text-decoration: none;
+    
+}
+img{
+    max-width: 100%;
+}
+}
+[lang="fa-IR"]{
+    direction: rtl;
+}
+.mt-10{
+    margin-top: 10rem;
+}
+.mt-18{
+    margin-top: 18rem;
+}
+.ms-10{
+    margin-right: 10rem !important;
+}

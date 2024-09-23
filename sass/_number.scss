@@ -1,0 +1,106 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .number-1 {
+    animation: counter1 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 1rem;
+  }
+  .number-1::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter1 {
+    from {
+      --num: 1;
+    }
+    to {
+      --num: 15;
+    }
+  }
+
+
+
+
+
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .number-2 {
+    animation: counter2 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 1rem;
+  }
+  .number-2::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter2 {
+    from {
+      --num: 1;
+    }
+    to {
+      --num: 521;
+    }
+  }
+
+
+
+
+
+
+
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .number-3 {
+    animation: counter3 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 1rem;
+  }
+  .number-3::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter3 {
+    from {
+      --num: 1;
+    }
+    to {
+      --num: 120;
+    }
+  }
+  .number-4 {
+    animation: counter4 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 1rem;
+  }
+  .number-4::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter4 {
+    from {
+      --num: 1;
+    }
+    to {
+      --num: 1453;
+    }
+  }
